@@ -1,0 +1,33 @@
+[
+	{
+		"name": "Savage",
+		"unitType": "Melee",
+		"uniqueTo": "Kharnai",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+		"uniques": ["Heals [50] damage if it kills a unit", "Bonus as Attacker [25]%"],
+		"attackSound": "metalhit"
+	},
+  	{
+		"name": "Scourgeknight",
+		"unitType": "Melee",
+		"uniqueTo": "Kharnai",
+		"replaces": "Longswordsman",
+		"movement": 3,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"uniques": ["Heals [50] damage if it kills a unit", "Bonus as Attacker [75]%"],
+		"attackSound": "metalhit"
+	}
+]
